@@ -1,0 +1,28 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.square {
+  border: 2px solid black;
+  display: flex;
+  width: 50px;
+  aspect-ratio: 1/1;
+  box-sizing: border-box;
+
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.square-hover {
+  background-color: brown;
+}
