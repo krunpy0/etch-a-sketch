@@ -1,5 +1,7 @@
 body {
   font-family: "Inter", sans-serif;
+  background-color: rgb(23, 23, 23);
+  color: white;
 }
 
 h1 {
@@ -42,7 +44,7 @@ h1 {
 }
 
 .square {
-  border: 2px solid black;
+  border: 0.1px solid rgba(128, 128, 128, 0.098);
   display: flex;
   width: 50px;
   aspect-ratio: 1/1;
@@ -51,6 +53,7 @@ h1 {
 }
 
 .content {
+  border: 2px solid black;
   display: flex;
   flex-wrap: wrap;
   max-width: 800px;
@@ -61,5 +64,5 @@ h1 {
 }
 
 .square-hover {
-  background-color: brown;
+  background-color: rgb(255, 145, 0);
 }
